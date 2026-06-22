@@ -1,0 +1,34 @@
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kung_fu_app
+    restart: "always"
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - kung-fu-network
+
+  db:
+    image: mysql:8.0
+    container_name: kung_fu_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${CONTAINER_BANCO_SENHA}
+      MYSQL_DATABASE: ${CONTAINER_BANCO_NOME}
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+    networks:
+      - kung-fu-network
+
+networks:
+  kung-fu-network:
+    driver: bridge

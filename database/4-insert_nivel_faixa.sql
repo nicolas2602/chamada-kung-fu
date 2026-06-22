@@ -1,0 +1,9 @@
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Branco");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Amarelo");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Laranja");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Azul");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Vermelho");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Verde");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Roxa");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Marrom");
+INSERT INTO nivel_faixa(tipoNivFaixa) VALUES ("Preto");
