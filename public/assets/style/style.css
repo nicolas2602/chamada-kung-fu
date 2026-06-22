@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+    background-color: #1c1c1c;
+}
+
+.sidebar .nav-link {
+    color: #ccc;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: #2a2a2a;
+    border-radius: 4px;
+}
+
+.nome-sistema {
+    color: #e74c3c;           /* vermelho vibrante */
+    background-color: #333333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.nome-usuario {
+    padding: 8px 16px;
+}
+
+.login-card {
+    background-color: #1c1c1c;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.formulario {
+    width: 100%;
+}
+
+.container-campo {
+    margin-bottom: 0;
+}
