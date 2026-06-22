@@ -37,6 +37,11 @@ function menu(string $nomeUsuario, string $paginaAtual): void
                     Chamada de Alunos
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link <?= $paginaAtual === 'historico_chamada' ? 'active' : ''?>" href="/app/view/historico_chamada">
+                    Histórico de Chamadas
+                </a>
+            </li>
             <li class="nav-item mt-auto pt-3 border-top border-secondary">
                 <a class="nav-link text-danger" href="/public/logout.php">Sair</a>
             </li>
