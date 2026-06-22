@@ -27,6 +27,14 @@ function menu(string $nomeUsuario, string $paginaAtual): void
                     Início
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link <?= $paginaAtual === 'cadastro_aluno' ? 'active' : ''?>" href="/app/view/cadastro_aluno">
+                    Cadastro de Alunos
+                </a>
+            </li>
+            <li class="nav-item mt-auto pt-3 border-top border-secondary">
+                <a class="nav-link text-danger" href="/public/logout.php">Sair</a>
+            </li>
         </ul>
     </aside>
 <?php
