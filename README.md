@@ -142,12 +142,27 @@ public
 └── logout.php
 ```
 
+## Modelagem do banco de dados
+#### Modelo Entidade-Relacionamento
+<img width="1150" height="629" alt="image" src="https://github.com/user-attachments/assets/7d6e40dd-4b57-4d6a-b381-35a578a25268" />
+
+#### Modelo Lógico
+<img width="859" height="692" alt="image" src="https://github.com/user-attachments/assets/292c69bc-80f8-47b0-b92b-31e13f509199" />
+
 ## Funcionalidades
 <ul>
   <li>Login de usuários</li>
   <li>Cadastro de alunos</li>
   <li>Registro de presença (chamada)</li>
   <li>Histórico de chamadas</li>
+</ul>
+
+## Pré-requistos de instalação
+Para instalar o projeto, é necessário ter a seguintes ferramentas:
+<ul>
+  <li>Docker</li>
+  <li>WSL ou Linux (para rodar o Docker)</li>
+  <li>VS Code (Recomendado)</li>
 </ul>
 
 ## Objetivo
