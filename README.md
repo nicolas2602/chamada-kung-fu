@@ -157,6 +157,10 @@ public
   <li>Histórico de chamadas</li>
 </ul>
 
+<p>
+  <b>Nota:</b> No registro de presença, os nomes dos alunos aparecem de forma automática, respeitando os dias programados de treino (terças-feiras e quintas-feiras), configurados desta forma para fins de teste.
+</p>
+
 ## Pré-requistos de instalação
 Para instalar o projeto, é necessário ter a seguintes ferramentas:
 <ul>
