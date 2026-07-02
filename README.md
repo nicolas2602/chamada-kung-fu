@@ -4,7 +4,7 @@
 Este sistema é uma aplicação web desenvolvida em PHP para controle de presença dos alunos em uma academia de Kung-Fu. O projeto foi criado com fins de estudo, aplicando uma arquitetura organizada baseada em MVC, com separação em Services, DTOs e Helpers.
 </p>
 
-## Tecnologia utilizadas
+## Tecnologias utilizadas
 <ul>
   <li>PHP 8.2</li>
   <li>MySQL</li>
