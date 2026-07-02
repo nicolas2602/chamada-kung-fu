@@ -38,6 +38,110 @@ O projeto segue a arquitetura:
   <li>Exceptions → Tratamento de erros e validações do sistema</li>
 </ul>
 
+## Detalhes da Arquitetura e Estrutura de Pastas
+```text
+app
+├── Controller
+│   ├── CadastroAlunoController.php
+│   ├── ChamadaAlunoController.php
+│   └── LoginController.php
+├── Dto
+│   ├── CadastroAluno
+│   │   ├── CadastroAlunoCampoAtualizacaoDto.php
+│   │   ├── CadastroAlunoCampoDto.php
+│   │   ├── CadastroAlunoDto.php
+│   │   ├── CadastroAlunoEntradaDto.php
+│   │   └── CadastroAlunoFiltroDto.php
+│   ├── ChamadaAluno
+│   │   ├── ChamadaAlunoDto.php
+│   │   ├── ChamadaAlunoInsereDto.php
+│   │   └── ChamadaAlunoSalvaDto.php
+│   ├── HistoricoChamadaAluno
+│   │   ├── HistoricoChamadaAlunoDto.php
+│   │   ├── HistoricoChamadaAlunoEntradaDto.php
+│   │   └── HistoricoChamadaAlunoPorDataDto.php
+│   ├── Login
+│   │   ├── LoginCampoDto.php
+│   │   └── LoginDto.php
+│   ├── NivelFaixaDto.php
+│   ├── PaginacaoDto.php
+│   ├── PerfilUsuarioDto.php
+│   ├── StatusChamadaDto.php
+│   └── StatusMatriculaDto.php
+├── Exceptions
+│   ├── CadastroAluno
+│   │   ├── CadastroInvalidoException.php
+│   │   └── FalhaCadastroException.php
+│   └── ChamadaAluno
+│       ├── ChamadaInvalidaException.php
+│       └── FalhaChamadaException.php
+├── Helpers
+│   ├── CaminhoHelpers.php
+│   ├── FormularioHelpers.php
+│   ├── Logger.php
+│   ├── MensagemHelpers.php
+│   ├── PaginacaoHelpers.php
+│   └── ValidacaoHelpers.php
+├── Model
+│   ├── CadastroAlunoModel.php
+│   ├── ChamadaAlunoModel.php
+│   ├── ClasseAuxiliarModel.php
+│   └── LoginModel.php
+├── Services
+│   ├── CadastroAlunoService.php
+│   ├── ChamadaAlunoService.php
+│   ├── LoginService.php
+│   └── SessaoService.php
+└── view
+    ├── cadastro_aluno
+    │   ├── conteudo.php
+    │   ├── index.php
+    │   └── logica.php
+    ├── chamada_aluno
+    │   ├── conteudo.php
+    │   ├── index.php
+    │   └── logica.php
+    ├── historico_chamada
+    │   ├── conteudo.php
+    │   ├── index.php
+    │   └── logica.php
+    ├── login
+    │   ├── conteudo.php
+    │   ├── index.php
+    │   └── logica.php
+    └── pagina_principal
+        ├── conteudo.php
+        ├── index.php
+        └── logica.php
+config
+└── Conexao.php
+database
+├── 1-create_tables.sql
+├── 2-insert_perfil.sql
+├── 3-insert_usuario.sql
+├── 4-insert_nivel_faixa.sql
+├── 5-insert_status_matricula.sql
+├── 6-insert_pessoa.sql
+├── 7-insert_status_chamada.sql
+└── 8-insert_chamada_pessoa.sql
+public
+├── assets
+│   ├── script
+│   │   └── modalCadastroAluno.js
+│   └── style
+│       └── style.css
+├── components
+│   ├── campo.php
+│   ├── mensagem.php
+│   ├── menu.php
+│   ├── modal.php
+│   ├── paginacao.php
+│   ├── rodape.php
+│   └── tabela.php
+├── index.php
+└── logout.php
+```
+
 ## Funcionalidades
 <ul>
   <li>Login de usuários</li>
