@@ -24,7 +24,7 @@ O projeto segue a arquitetura:
   <li>Services para regras de negócio</li>
   <li>DTO (Data Transfer Objects) para transporte de dados</li>
   <li>Helpers para funções auxiliares</li>
-  <li>Exceptions para tratamento de </li>
+  <li>Exceptions para tratamento de erros</li>
 </ul>
 
 ## Organização geral
