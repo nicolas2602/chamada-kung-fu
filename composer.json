@@ -1,8 +1,12 @@
 {
+    "name": "nicolas2602/chamada-kung-fu",
+    "description": "Projeto desenvolvido apenas para fins de estudos.",
+    
     "require": {
+        "php": "^8.5",
         "vlucas/phpdotenv": "^5.6",
         "monolog/monolog": "^3.0",
-        "guzzlehttp/guzzle": "^7.9",
+        "guzzlehttp/guzzle": "^7.16",
         "setasign/fpdf": "^1.8"
     },
 
@@ -11,5 +15,9 @@
             "App\\": "app",
             "Config\\": "config"
         }
+    },
+
+    "config": {
+        "platform-check": true
     }
 }
