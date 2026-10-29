@@ -18,7 +18,7 @@ Este sistema é uma aplicação web desenvolvida em PHP para controle de presen�
 
 ## Tecnologias utilizadas
 <ul>
-  <li>PHP 8.2</li>
+  <li>PHP 8.5</li>
   <li>MySQL</li>
   <li>HTML5</li>
   <li>CSS3</li>
